@@ -1,5 +1,5 @@
 # Frontend Mentor - Profile card component
 
-![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
 Basic frontend design of a profile card component.
+Couldn't finished the card pattern atm.Will fix it later.
 I found this challenge at Frontend Mentor.
