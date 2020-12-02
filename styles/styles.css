@@ -1,0 +1,156 @@
+body{
+  background-color: #00acc1;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #616161;
+}
+
+a{
+  text-decoration: none;
+  color: #9e9e9e;
+  padding-top: 20px;
+}
+
+a:hover{
+  color: #80deea;
+}
+
+h1{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 600;
+}
+
+span{
+  margin-left: 15px;
+  color: #9e9e9e;
+}
+
+img{
+  position: relative;
+  border : solid;
+  border-width: 5px;
+  border-color: #9e9e9e;
+  border-radius: 50%;
+  margin: -50px 0 0 0;
+}
+
+hr{
+  color: #e0e0e0;
+  border-style: solid none none none;
+  margin-top : 50px;
+}
+
+.info{
+  display: inline-block;
+  position: relative;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin: 20px auto -25px auto;
+}
+
+.followers{
+  position: relative;
+  margin-right: 100px;
+}
+
+.likes{
+  position: relative;
+  margin-left: 10px;
+}
+
+.photos{
+  position: relative;
+  margin-left: 100px;
+}
+
+.text{
+  display: inline-block;
+  position: relative;
+  color: #9e9e9e;
+  letter-spacing: 3px;
+}
+
+.followers-text{
+  position: absolute;
+  left: 57px;
+  bottom: 35px;
+}
+
+.likes-text{
+  position: absolute;
+  left: 253px;
+  bottom: 35px;
+}
+
+.photos-text{
+  position: absolute;
+  left: 410px;
+  bottom: 35px;
+}
+
+.town{
+  font-size: 1.25rem;
+  color: #9e9e9e;
+}
+
+.s-links{
+  margin-right: 20px;
+}
+
+.body-container{
+  display: inline-block;
+  margin: 0 0 0 0;
+  height: 100%;
+  width: 100%;
+  height: 56.25rem;
+}
+
+.card-container{
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 570px;
+  border-radius: 5%;
+  margin-left: 660px;
+  margin-top: 230px;
+}
+
+.bottom-side{
+  height: 350px;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-container{
+  position: relative;
+  background-color: #37474f;
+  color: white;
+  height: 200px;
+
+  text-align: center;
+  margin: 400px 0 0 0;
+
+}
+
+.card-pattern{
+  background-color: #37474f;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.attribution{
+  padding: 50px 0 0 0;
+}
+
+.top-pattern{
+  position: absolute;
+  margin: -400px auto auto -220px;
+}
+
+.bottom-pattern{
+  position: absolute;
+  margin: 498px 0 0 1100px;
+  width: 42%;
+}

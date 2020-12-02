@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@500&family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+  <title>Profile Card Component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+  <div class="body-container">
+
+    <svg class="top-pattern" width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+          <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+          <stop stop-color="#53FFEE" offset="99.94%" />
+        </linearGradient>
+      </defs>
+      <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5" />
+    </svg>
+    <svg class="bottom-pattern" width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+          <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+          <stop stop-color="#53FFEE" offset="99.94%" />
+        </linearGradient>
+      </defs>
+      <ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25" />
+    </svg>
+
+    <div class="card-container">
+
+      <svg class="card-pattern" width="550" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="c">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="d">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+          <path id="a" d="M0 0h350v140H0z" />
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+          <mask id="b" fill="#fff">
+            <use xlink:href="#a" />
+          </mask>
+          <use fill="#41CBD3" xlink:href="#a" />
+          <g mask="url(#b)" opacity=".5">
+            <g transform="translate(-11 -4)">
+              <ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834" />
+            </g>
+            <g transform="translate(-11 91.63)">
+              <ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834" />
+            </g>
+            <g transform="translate(-11 43.815)">
+              <ellipse fill="url(#c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834" />
+            </g>
+            <g transform="translate(11.822 18.77)">
+              <ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834" />
+            </g>
+            <g transform="translate(11.822 114.4)">
+              <ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834" />
+            </g>
+            <g transform="translate(11.822 66.585)">
+              <ellipse fill="url(#c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834" />
+              <ellipse fill="url(#d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8" />
+              <ellipse fill="url(#c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834" />
+            </g>
+          </g>
+        </g>
+      </svg>
+
+      <div class="bottom-side">
+
+        <img src="/images/image-victor.jpg" alt="victor.jpg">
+        <h1>Victor Crest <span>26</span></h1>
+        <p class="town">London</p>
+        <hr>
+        <p class="info followers">80K</p>
+        <p class="info likes">803K</p>
+        <p class="info photos">1.4K</p>
+
+        <p class="text followers-text">Followers</p>
+        <p class="text likes-text">Likes</p>
+        <p class="text photos-text">Photos</p>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-container">
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Muhammed Kurfeyiz</a>.
+    </div>
+
+    <p style="padding : 10px 0 10px 0;">My Social Media Acounts</p>
+    <a class="s-links" href="https://www.linkedin.com/in/muhammed-kurfeyiz-28a654151/" target="_blank">LinkedIn</a>
+    <a class="s-links" href="https://mobile.twitter.com/m_kurfeyiz" target="_blank">Twitter</a>
+    <a class="s-links" href="https://www.instagram.com/m.kurfeyiz/?hl=tr" target="_blank">Instagram</a>
+
+  </div>
+
+</body>
+
+</html>
